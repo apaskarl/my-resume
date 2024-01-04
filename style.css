@@ -1,0 +1,404 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(43, 43, 53);
+    font-family: "Open Sans", sans-serif;
+}
+#navbar{
+    padding: 5px 20px;
+    height: 100%;
+    width: 200px;
+    background-color: rgb(35, 35, 49);
+    position: fixed;
+}
+#navbar a:hover::before {
+    position: relative;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #00bcd4;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s ease-in-out;
+}
+/* Define the CSS class for the active link */
+.active-link {
+    color: red; /* Change this to the desired color */
+}
+
+.name{
+    font-family: 'Outfit', sans-serif;
+    font-size: 30px;
+    color: white;
+    padding: 0px;
+    margin-left: 10px;
+}
+.pos{
+    font-family: 'Sarabun', sans-serif;
+    font-size: 20px;
+    color: rgb(211, 211, 211);
+    padding: 0px;
+    padding-bottom: 0px;
+    margin-top: 5px;
+    margin-bottom: 45px;
+    margin-left: 10px;
+}
+.line{
+    align-items: center;
+    width: 90%;
+    margin-top: -10px;
+    border: 0.5px solid;
+    color: rgb(76, 81, 102);
+}
+.line3{
+    align-items: center;
+    width: 800px;
+    margin-left: 200px;
+    margin-top: -10px;
+    border: 0.5px solid;
+    color: rgb(76, 81, 102);
+}
+.line2{
+    align-items: center;
+    width: 125%;
+    margin: 10px 0px;
+    margin-left: -35px;
+    border: 1px solid;
+    color: rgb(76, 81, 102);
+}
+.list{
+    position: relative;
+    align-content: center;
+    margin-left: -50px;
+    font-size: 23px;
+    font-family: 'Outfit', sans-serif;
+}
+ul li{
+    list-style: none;
+    padding: 30px;
+    text-align: center;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(174, 183, 201);
+}
+ul li a:hover{
+    color: rgb(76, 81, 102);;
+}
+#home{
+    float: right;
+    position: static;
+    background-color: rgb(27, 27, 31);
+    background-image: url(ctubg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 743px;
+    width: 85%;
+    margin-top: -50px;
+    margin-right: 0px;
+    z-index: 0;
+}
+.text{
+    font-family: 'Outfit', sans-serif;
+    margin-top: 200px;
+    margin-left: 200px;
+    font-size: 60px;
+    color: white;
+    padding: 0px;
+}
+.face{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    height: 600px;
+    width: 650px;
+}
+.text2{
+    font-family: 'Sarabun', sans-serif;
+    margin-top: -25px;
+    margin-left: 200px;
+    font-size: 23px;
+    color: white;
+    padding: 0px;
+}
+#aboutme{
+    float: right;
+    position: static;
+    background-color: rgb(224, 227, 233);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 693px;
+    width: 85%;
+    margin-top: -50px;
+    margin-right: 0px;
+}
+#educ{
+    float: right;
+    position: static;
+    background-color: rgb(67, 67, 75);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 693px;
+    width: 85%;
+    margin-top: -50px;
+    margin-right: 0px;
+}
+#skills{
+    float: right;
+    position: static;
+    background-color:rgb(49, 49, 51);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 693px;
+    width: 85%;
+    margin-top: -50px;
+    margin-right: 0px;
+}
+#contactme{
+    float: right;
+    position: static;
+    background-color: rgb(224, 224, 224);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 693px;
+    width: 85%;
+    margin-top: -50px;
+    margin-right: 0px;
+}
+.text3{
+    font-family: 'Outfit', sans-serif;
+    margin-top: 75px;
+    margin-left: 200px;
+    font-size: 60px;
+    color: rgb(43, 43, 53);
+    padding: 0px;
+}
+.text4{
+    font-family: 'Sarabun', sans-serif;
+    font-weight: medium;
+    position: relative;
+    top: 70px;
+    margin-left: 250px;
+    margin-top: -5px;
+    padding: -10px;
+    font-size: 25px;
+    color: rgb(43, 43, 53);
+}
+.text5{
+    font-family: 'Sarabun', sans-serif;
+    position: relative;
+    top: 90px;
+    margin-left: 250px;
+    margin-top: -5px;
+    padding: -10px;
+    font-size: 25px;
+    color: rgb(43, 43, 53);
+}
+.text4 a{
+    font-size: 25px;
+    color: rgb(43, 43, 53);
+}
+.text4 a:hover{
+    color: rgb(83, 83, 99);
+}
+.label{
+    display: inline-block;
+    width: 250px;
+}
+.label2{
+    display: inline-block;
+    width: 100px;
+}
+.label4{
+    display: inline-block;
+    width: 350px;
+}
+.text6{
+    font-family: 'Sarabun', sans-serif;
+    position: relative;
+    top: 60px;
+    margin-left: 250px;
+    margin-top: -5px;
+    padding: -10px;
+    font-size: 25px;
+    color: rgb(26, 26, 31);
+}
+.text7{
+    font-family: 'Sarabun', sans-serif;
+    position: relative;
+    top: 60px;
+    margin-left: 250px;
+    margin-top: -5px;
+    padding: -10px;
+    font-size: 20px;
+    color: rgb(54, 54, 70);
+}
+.text7 a{
+    font-size: 20px;
+    color: rgb(54, 54, 70); 
+}
+.text7 a:hover{
+    color: rgb(90, 90, 116); 
+}
+.label3{
+    display: inline-block;
+    width: 700px;
+}
+.chr{
+    position: absolute;
+    left: 220px;
+    align-items: center;
+    width: 350px;
+    margin-left: 400px;
+    margin-top: 13px;
+    border: 5px solid;
+    border-radius: 20px;
+    color: rgb(70, 73, 87);
+}
+.chr2{
+    position: absolute;
+    align-items: center;
+    left: 220px;
+    width: 500px;
+    margin-left: 400px;
+    margin-top: 13px;
+    border: 5px solid;
+    border-radius: 20px;
+    color: rgb(145, 148, 158);
+}
+.jvhr{
+    position: absolute;
+    left: 220px;
+    align-items: center;
+    width: 350px;
+    margin-left: 400px;
+    margin-top: 14px;
+    border: 5px solid;
+    border-radius: 20px;
+    color: rgb(76, 81, 102);
+} 
+.jvhr2{
+    position: absolute;
+    left: 220px;
+    align-items: center;
+    width: 500px;
+    margin-left: 400px;
+    margin-top: 14px;
+    border: 5px solid;
+    border-radius: 20px;
+    color: rgb(145, 148, 158);
+}
+.phr{
+    position: absolute;
+    left: 220px;
+    align-items: center;
+    width: 300px;
+    margin-left: 400px;
+    margin-top: 15px;
+    border: 5px solid;
+    border-radius: 20px;
+    color: rgb(70, 73, 87);
+}
+.phr2{
+    position: absolute;
+    left: 220px;
+    align-items: center;
+    width: 500px;
+    margin-left: 400px;
+    margin-top: 15px;
+    border: 5px solid;
+    border-radius: 20px;
+    color: rgb(145, 148, 158);
+}
+.hhr{
+    position: absolute;
+    left: 220px;
+    align-items: center;
+    width: 350px;
+    margin-left: 400px;
+    margin-top: 16px;
+    border: 5px solid;
+    border-radius: 20px;
+    color: rgb(70, 73, 87);
+}
+.hhr2{
+    position: absolute;
+    left: 220px;
+    align-items: center;
+    width: 500px;
+    margin-left: 400px;
+    margin-top: 16px;
+    border: 5px solid;
+    border-radius: 20px;
+    color: rgb(145, 148, 158);
+}
+.cshr{
+    position: absolute;
+    left: 220px;
+    align-items: center;
+    width: 325px;
+    margin-left: 400px;
+    margin-top: 17px;
+    border: 5px solid;
+    border-radius: 20px;
+    color: rgb(70, 73, 87);
+}
+.cshr2{
+    position: absolute;
+    left: 220px;
+    align-items: center;
+    width: 500px;
+    margin-left: 400px;
+    margin-top: 17px;
+    border: 5px solid;
+    border-radius: 20px;
+    color: rgb(145, 148, 158);
+}
+.jshr{
+    position: absolute;
+    left: 220px;
+    align-items: center;
+    width: 250px;
+    margin-left: 400px;
+    margin-top: 17px;
+    border: 5px solid;
+    border-radius: 20px;
+    color: rgb(70, 73, 87);
+}
+.jshr2{
+    position: absolute;
+    left: 220px;
+    align-items: center;
+    width: 500px;
+    margin-left: 400px;
+    margin-top: 17px;
+    border: 5px solid;
+    border-radius: 20px;
+    color: rgb(145, 148, 158);
+}
+#copyright{
+    float: right;
+    position: static;
+    background-color: rgb(31, 31, 39);
+    height: 100px;
+    width: 85%;
+    margin-top: -50px;
+    margin-right: 0px;
+}
+.text8{
+    position: relative;
+    top: 60px;
+    margin-left: 100px;
+    margin-top: -25px;
+    padding: 0px;
+    font-size: 20px;
+    color: rgb(206, 206, 218);
+}
+.icons{
+    position: relative;
+    left: 85px;
+    margin-top: 30px;
+    margin-left: 5px;
+    cursor: pointer;
+}
